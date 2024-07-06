@@ -6,11 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="indes.css">
     <title>WPPOOL</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <nav></nav>
-    <main></main>
+    <nav class="fixed z-50 top-0 left-0 w-full">
+        <div class="relative max-w-[1276px] mx-auto flex justify-between items-center px-[18px] py-3 mt-[34px]">
+            <!-- logo -->
+            <img class="max-w-[200px] h-[34px]" src="./assets/logo.svg" alt="">
+            <div class="flex items-center">
+                <button class="size-[42px] rounded-full border border-white flex items-center justify-center">
+                    <img class="size-[14px]" src="./assets/share-light.svg" alt="">
+                </button>
+                <button class="p-4 bg-transparent rounded-full border border-white text-xs text-white ml-3">
+                    Download the 2024 Report
+                </button>
+                <button class="h-4 w-5 ml-6"><img src="./assets/menutoggle.svg" alt=""></button>
+
+                <div class="hidden absolute bg-white w-[338px] right-2 -top-[6px] rounded-2xl min-h-[200px]">
+                    <div class="relative w-full h-full p-8">
+                        <div class="flex items-center">
+                            <button class="size-[42px] rounded-full bg-[#AFCD80] flex items-center justify-center">
+                                <img class="size-[14px]" src="./assets/share-light.svg" alt="">
+                            </button>
+                            <button class="p-4 rounded-full bg-[#2042B6] text-xs text-white ml-3">
+                                Download the 2024 Report
+                            </button>
+                        </div>
+                        <button class="size-4 absolute top-12 right-6"><img src="./assets/close.svg" alt=""></button>
+                        <div class="mt-8">
+                            <ul class="space-y-6 *:text-lg text-[#191618]">
+                                <li><a href="">The WPPOOL Index</a></li>
+                                <li><a href="">All Companies</a></li>
+                                <li><a href="">Potential Future Listings</a></li>
+                                <li><a href="">State of USA</a></li>
+                                <li><a href="">Stories & Ideas</a></li>
+                                <li><a href="">About WPPOOL</a></li>
+                                <li><a href="">WPPOOL Portfolio Companies</a></li>
+                            </ul>
+                        </div>
+                        <button class="text-[#2042B6] text-xl mt-9 mb-1"><a class="" href="">Visit WPPOOL</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="p-[25px] max-w-[1316px] mx-auto">
+        <header class="w-full h-[718px] rounded-2xl !bg-[#2042B6] relative bg-no-repeat bg-center bg-blend-multiply"
+            style="background-image: url('./assets/banner-bg.png');">
+            <div class="inset-0 absolute top-0 left-0 bg-no-repeat bg-center flex flex-col justify-center items-center"
+                style="background-image:  url('./assets/rectangle.svg');">
+                <h3 class="text-white text-[78px]">The WPPOOL Index</h3>
+                <p class="text-[#CDCDCD] text-xl font-light">Monitor the performance of emerging, publicly traded,
+                    financial technology
+                    companies</p>
+            </div>
+            <div class="flex items-end h-full p-[44px]">
+                <div class="flex flex-col gap-[50px]">
+                    <div class="">
+                        <h3 class="text-4xl text-white">60</h3>
+                        <p class="text-[#CDCDCD]">Companies</p>
+                    </div>
+                    <div class="">
+                        <h3 class="text-4xl text-white">$100B</h3>
+                        <p class="text-[#CDCDCD]">Market cap</p>
+                    </div>
+                    <div class="">
+                        <h3 class="text-4xl text-white">3.5x</h3>
+                        <p class="text-[#CDCDCD]">Revenue multiple</p>
+                    </div>
+                    <div class="">
+                        <h3 class="text-4xl text-white">60%</h3>
+                        <p class="text-[#CDCDCD]">LTM avg. revenue growth rate</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
     <footer></footer>
 </body>
 

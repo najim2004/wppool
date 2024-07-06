@@ -1,0 +1,9 @@
+* {
+  border: none;
+  margin: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ededed;
+}
